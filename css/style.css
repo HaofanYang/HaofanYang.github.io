@@ -284,15 +284,6 @@ section p + p { margin-top: 16px; }
 .edu li { margin-bottom: 16px; font-size: 0.875rem; }
 .edu .where { color: var(--heading); font-weight: 500; }
 
-footer {
-  max-width: 28rem;
-  padding-bottom: 8px;
-  font-size: 0.875rem;
-  color: var(--muted);
-}
-footer a { color: var(--text); font-weight: 500; }
-footer a:hover { color: var(--accent); }
-
 /* ---------- tablet ---------- */
 @media (min-width: 640px) {
   .item { grid-template-columns: repeat(8, 1fr); gap: 16px; }
